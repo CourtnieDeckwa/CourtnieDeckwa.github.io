@@ -24,11 +24,11 @@
         
                 <!-- The second child of the table element should be the colgroup element, which also contains several col elements, and helps define the purpose of the table colums. -->
                   <colgroup>
-                    <col span="12" style="background-color: lightgray"/>
-                    <col>
-                    <col>
-                    <col>
-                    <col>
+                    <col span="2" title="Planet Groups">
+                    <col title="Name">
+                    <col title="Mass">
+                    <col title="Diameter">
+                    <col title="">
                     <col>
                     <col>
                     <col>
@@ -39,7 +39,7 @@
                     </colgroup>
                     <thead>
                         <tr>
-                            <th>       </th>
+                            <th colspan="2"></th>
                         <th>Name</th>
                         <th>Mass (10<sup>24</sup>kg)</th>
                         <th>Diameter (km)</th>
@@ -56,8 +56,8 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td>&nbsp;</td>
-                                <td> Mercury </td>
+                                <th scope ="rowgroup" rowspan="4" colspan="2">Terrestrial Planets</th>
+                                <th scope="row"> Mercury </th>
                                 <td>0.330 </td>
                                <td>4,879 </td>
                                 <td>5427 </td>
@@ -72,8 +72,8 @@
                             </tr>
 
                             <tr>
-                                <td>&nbsp;</td>
-                               <td>Venus </td>
+                               
+                               <th scope="row">Venus </th>
                                <td> 4.87 </td>
                                <td> 12,104 </td>
                                <td> 5243 </td>
@@ -86,8 +86,8 @@
                                <td><img src="venus.jpg" alt="Venus"></td>
                             </tr>
                             <tr>
-                                <td>&nbsp;</td>
-                                <td>Earth </td>
+                                
+                                <th>Earth </th>
                                    <td> 5.97 </td>
                                    <td> 12,756 </td>
                                    <td> 5514 </td>
