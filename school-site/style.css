@@ -78,9 +78,9 @@ header, footer {
 
 
 /* Imported Typfaces */
-@font-face {
+@font-face { 
 font-family: josefinslab;
-src: url(josefinslab-regular.ttf) format('truetype')
+src: url(josefinslab-regular.ttf) format('truetype');
 font-weight: normal;
 font-style: normal;
 }
@@ -88,7 +88,7 @@ font-style: normal;
 @font-face {
 
     font-family: montserrat;
-    src: url(montserrat-regular.ttf) format('truetype')
+    src: url(montserrat-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -106,10 +106,22 @@ html {
 
 }
 h1 {
-    font-family: josefinslab;
+    font-family: josefinslab, Arial, serif;
+    letter-spacing: .123rem;
+    font-size: 3.75rem;
+    margin: 1.125rem;
+    align: "center"
 }
 
-h2 {}
+
+
+
+
+h2 {
+    font-family: josefinslab, Arial, serif;
+    letter-spacing: .123rem;
+}
+
 h2 + p {}
 p {}
 li {}
