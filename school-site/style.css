@@ -120,12 +120,29 @@ h1 {
 h2 {
     font-family: josefinslab, Arial, serif;
     letter-spacing: .123rem;
+    font-size: 1.5rem;
 }
 
-h2 + p {}
-p {}
-li {}
-figcaption {}
+h2 + p {
+    text-indent: 1.5rem;
+}
+p {
+    font-size: .75rem;
+    letter-spacing: .03125rem;
+    word-spacing: .125rem;
+
+
+}
+li {
+    font-size: .75rem;
+    letter-spacing: .03125rem;
+    word-spacing: .125rem;
+}
+figcaption {
+    font-size: .75rem;
+    margin-bottom: 2rem;
+    
+}
 
 
 
