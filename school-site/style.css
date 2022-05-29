@@ -80,18 +80,43 @@ header, footer {
 /* Imported Typfaces */
 @font-face {
 font-family: josefinslab;
-src: url(josefinslab-regular.ttf)
+src: url(josefinslab-regular.ttf) format('truetype')
+font-weight: normal;
+font-style: normal;
 }
 
 @font-face {
+
     font-family: montserrat;
-    src: url(montserrat-regular.ttf)
+    src: url(montserrat-regular.ttf) format('truetype')
+    font-weight: normal;
+    font-style: normal;
 }
+
+
+
 
 
 
 
 /* Typography Styles */
+
+html { 
+    font-family: montserrat, Arial, sans-serif;
+
+}
+h1 {
+    font-family: josefinslab;
+}
+
+h2 {}
+h2 + p {}
+p {}
+li {}
+figcaption {}
+
+
+
 
 
 
