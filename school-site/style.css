@@ -141,7 +141,7 @@ li {
 figcaption {
     font-size: .75rem;
     margin-bottom: 2rem;
-    
+
 }
 
 
@@ -161,8 +161,21 @@ figcaption {
 
 /* List Styling */
 
-
-
+ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    list-style-type: square;
+    margin-left: 0rem;
+    margin-right: 0rem;
+}
+ol {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    list-style-type: lowercase;
+}
+.long-list a:hover {}
 
 
 
