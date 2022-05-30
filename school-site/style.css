@@ -173,7 +173,7 @@ ol {
     margin-bottom: 1rem;
     margin-left: 0rem;
     margin-right: 0rem;
-    list-style-type: lowercase;
+    list-style-type: lower-alpha;
 }
 .long-list a:hover {}
 
