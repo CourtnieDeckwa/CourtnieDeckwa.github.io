@@ -158,7 +158,6 @@ a {
 }
 a:visited {color: #33658A}
     
-}
 
 a:focus,
 a:hover {outline: none}
@@ -197,7 +196,7 @@ nav {
 nav a {underline: none;
     display: inline-block;
     width: 100%;
-    line-height: 3; 
+    line-height: .1875rem; 
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
