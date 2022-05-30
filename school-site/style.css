@@ -110,7 +110,7 @@ h1 {
     letter-spacing: .123rem;
     font-size: 3.75rem;
     margin: 1.125rem;
-    align: "center"
+    text-align: center;
 }
 
 
@@ -223,7 +223,7 @@ nav a:active {
 
 /* Footer Styles */
 
-
+footer {text-align: center;}
 
 
 
