@@ -153,14 +153,15 @@ figcaption {
 
 
 /* Link Styling */
-a {
+a{
     outline: none;
 }
+a:link {color: #33658A}
 a:visited {color: #33658A}
     
 
 a:focus,
-a:hover {outline: none}
+a:hover {text-decoration: none;}
 
 
 
@@ -184,8 +185,7 @@ ol {
     margin-right: 0rem;
     list-style-type: lower-alpha;
 }
-.long-list a:hover {
-    text-decoration: none;
+.long-list a:hover {list-style-type: upper-alpha
 }
 
 
